@@ -4,8 +4,8 @@ import openai
 from streamlit_antd_components import menu, MenuItem
 import streamlit_antd_components as sac
 from main_bot import basebot_memory, basebot_qa_memory, clear_session_states, search_bot, basebot_qa, basebot
-from kb_module import display_files,docs_uploader, delete_files
-from vs_module import display_vectorstores, create_vectorstore, delete_vectorstores
+from files_module import display_files,docs_uploader, delete_files
+from kb_module import display_vectorstores, create_vectorstore, delete_vectorstores
 from authenticate import login_function,check_password
 from class_dash import download_data_table_csv
 from text_assistant import text_generator, text_feedback, lesson_bot
